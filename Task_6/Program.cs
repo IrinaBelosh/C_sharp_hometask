@@ -6,11 +6,18 @@ Console.Clear();
 Console.WriteLine("Enter the number: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 int a = num1 % 2;
-if (a == 0)
+if (num1 == 0)
 {
-    Console.WriteLine("YES");
+    Console.WriteLine("NO");
 }
 else
 {
-    Console.WriteLine("NO");
+    if (a == 0)
+    {
+       Console.WriteLine("YES"); 
+    }
+    else
+    {
+        Console.WriteLine("NO");
+    }
 }
