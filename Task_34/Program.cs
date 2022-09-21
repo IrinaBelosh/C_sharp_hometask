@@ -25,12 +25,12 @@ void PrintArray(int[] ar2) //задаем метод для печати мас�
     }
 }
 
-int EvenSum(int[] ar3)
+int EvenSum(int[] ar3) 
 {
     int plusevennumber = 0;
     for (int i = 0; i < ar3.Length; i++)
     {
-        if (ar3[i] % 2 == 0) plusevennumber = plusevennumber + ar3[i];
+        if (ar3[i] % 2 == 0) plusevennumber++;
     }
     return plusevennumber;
 }
